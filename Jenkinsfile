@@ -10,7 +10,7 @@ pipeline {
     // ── Змінні середовища ──────────────────────────────────────
     environment {
         // Твій логін на Docker Hub (замін на свій!)
-        DOCKERHUB_USER = "anthonysborozenets@gmail.com"
+        DOCKERHUB_USER = "anthonysborozenets"
 
         // Назва образу: username/app-name
         IMAGE_NAME = "${DOCKERHUB_USER}/nodejs-jenkins-app"
